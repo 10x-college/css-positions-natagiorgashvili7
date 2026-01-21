@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
+}
+
+.logo {
+  font-weight: bold;
+  color: #13183f;
+}
+
+.btn {
+  border: none;
+  padding: 12px 22px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn.dark {
+  background: #13183f;
+  color: white;
+}
+
+.btn.pink {
+  background: linear-gradient(90deg, #ff6f48, #f02aa6);
+  color: white;
+}
+.hero {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px;
+  overflow: hidden;
+}
+
+.hero-text {
+  max-width: 450px;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  color: #666;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.hero-image {
+  position: relative;
+}
+
+.hero-image img {
+  width: 600px;
+  height: 560px;
+  transform: translateX(80px);
+}
+
+.badge {
+  position: absolute;
+  background: white;
+  padding: 14px 18px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.badge span {
+  display: block;
+  font-size: 12px;
+  color: #777;
+}
+
+.badge strong {
+  font-size: 22px;
+}
+
+.members {
+  top: 40px;
+  right: -40px;
+}
+
+.hours {
+  bottom: 40px;
+  left: -50px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 16px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.icon {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: #ff4d79;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 18px;
+}
+
+.card h3 {
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.card p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.card a {
+    color: #ff4d79;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.highlight {
+    background: linear-gradient(135deg, #ff4d79, #7a5cff);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.highlight-content p {
+    padding: 30px;
+    text-align: left;
+    color: white;
+}
+
+.highlight p {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1.4;
+}
+footer{
+    background-color: #13183F;
+    height: 107px;
+}
+.logo_foot {
+    color: white;
+}
